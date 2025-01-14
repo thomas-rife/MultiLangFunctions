@@ -12,16 +12,12 @@ def change(amount: int) -> dict[int, int]:
         counts[denomination], remaining = divmod(remaining, denomination)
     return counts
 
-
-# Write your first then lower case function here
-def first_then_lower_case(a, p, /):
-    for string in a:
-        if p(string):
+def first_then_lower_case(input_string, predicate, /):
+    for string in input_string:
+        if predicate(string):
             return string.lower()
     return None
 
-
-# Write your powers generator here
 def powers_generator(*, base, limit):
     power = 0
     while True:
@@ -31,8 +27,6 @@ def powers_generator(*, base, limit):
         yield result
         power += 1
 
-
-# Write your say function here
 def say(word=None, /):
     words = []
 
@@ -44,7 +38,6 @@ def say(word=None, /):
 
     return extra(word)
 
-# Write your line count function here
 def meaningful_line_count(filename, /):
     try:
         with open(filename, 'r') as file:
@@ -53,7 +46,6 @@ def meaningful_line_count(filename, /):
     except FileNotFoundError:
         raise
 
-# Write your Quaternion class here
 @dataclass(frozen = True)
 class Quaternion:
     a: float

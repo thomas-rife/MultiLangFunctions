@@ -50,7 +50,6 @@ function say(initial_word)
     return extra(initial_word)
 end
 
-
 local open = io.open
 
 function meaningful_line_count(path)

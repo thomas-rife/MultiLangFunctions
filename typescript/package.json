@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "tsc && node --test dist/exercises.test.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.14",
+    "assert-strict": "^0.0.2",
+    "fs.promises": "^0.1.2",
+    "node-test": "^1.4.6"
+  }
+}

@@ -96,9 +96,6 @@
 
 ## Functional Programming: TypeScript, OCaml, Haskell
 
-**Authors:** Thomas Rife and August Wetterau  
-**Submitted:** 10/11/2024
-
 ### Projects
 
 - **First Matching Element with Transformation:**

@@ -1,9 +1,6 @@
 # LMUCS Programs written in 13 Languages
 
-## Homework 1 (Scripting): Lua, Python, JavaScript
-
-**Authors:** Thomas Rife and August Wetterau  
-**Submitted:** 9/13/2024
+## Scripting: Lua, Python, JavaScript
 
 ### Projects
 
@@ -41,10 +38,7 @@
     6. Supporting value-based equality
     7. Producing the string representation
 
-## Homework 2 (Enterprise): Java, Kotlin, Swift
-
-**Authors:** Thomas Rife and August Wetterau  
-**Submitted:** 10/4/2024
+## Enterprise: Java, Kotlin, Swift
 
 ### Projects
 
@@ -100,7 +94,7 @@
   - **Swift requirement:** Implemented using an `indirect enum`. Made `size` a computed property.
   - Used language-specific conventions for string formatting to represent trees.
 
-## Homework 3 (Enterprise): TypeScript, OCaml, Haskell
+## Functional Programming: TypeScript, OCaml, Haskell
 
 **Authors:** Thomas Rife and August Wetterau  
 **Submitted:** 10/11/2024
@@ -158,10 +152,7 @@
     - **TypeScript:** Used language-specific information-hiding techniques.
     - **OCaml and Haskell:** Exported `Empty` constructor but not `Node` constructor to enforce constraints.
 
-## Homework 4 (Enterprise): C, C++, and Rust
-
-**Authors:** Thomas Rife and August Wetterau  
-**Submitted:** 10/11/2024
+## Systems Programming: C, C++, and Rust
 
 ### Projects
 
@@ -193,10 +184,7 @@
     - Combined `struct`, `impl`, and tests into one file for simplicity.
     - Passed all unit tests.
 
-## Homework 5 (Simulation): Go
-
-**Authors:** Thomas Rife and August Wetterau  
-**Submitted:** 10/18/2024
+## Concurrency: Go
 
 ### Simulation Overview
 

@@ -1,4 +1,4 @@
-# LMUCS Programs written in 13 Languages
+# Programs written in 13 Languages
 
 ## Scripting: Lua, Python, JavaScript
 
